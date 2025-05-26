@@ -1,11 +1,13 @@
 const btnLogin = document.querySelector('.login')
 const btnReg = document.querySelector('.reg')
 
+btnLogin.addEventListener('click', ()=>{
+    window.location.href = '../html/login.html'
 
-btnLogin.addEventListener('Click', ()=> {
-    window.location.href = '../html/login.html';
-});
+})
 
-btnReg.addEventListener('Click', ()=> {
-    window.location.href = '../html/registration'
+
+btnReg.addEventListener('click', ()=>{
+    window.location.href = '../html/registration.html'
+
 })
